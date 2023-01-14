@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.connect(
-  "mongodb+srv://user:hamza123@crud.wbyczd6.mongodb.net/food?retryWrites=true&w=majority"
+  "mongodb+srv://user123:pass@crud.wbyczd6.mongodb.net/food?retryWrites=true&w=majority"
 );
 
 app.post("/insertdata", async (req, res) => {
